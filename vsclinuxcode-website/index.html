@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="VSC Linux Code by Sagar Chavan — practical Linux, DevOps, Kubernetes, AWS and automation study material, labs and architecture guides.">
+  <title>VSC Linux Code | Learn Linux. Build DevOps.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> PRACTICAL LABS · INTERVIEW PREP · REAL-WORLD TROUBLESHOOTING</div>
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="VSC Linux Code home">
+        <span class="logo-mark">VSC</span><span class="logo-copy">LINUX<span>CODE</span></span>
+      </a>
+      <button class="menu-btn" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#roadmap">Study Roadmap</a><a href="#kubernetes">Kubernetes</a><a href="#labs">Labs & Projects</a><a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <div class="slide-kicker"><span class="kicker-dot"></span><span id="slide-kicker">YOUR PRACTICAL LINUX & DEVOPS HUB</span></div>
+          <div class="slides" aria-live="polite">
+            <article class="hero-slide active" data-kicker="YOUR PRACTICAL LINUX & DEVOPS HUB">
+              <p class="eyebrow">LEARN · PRACTISE · TROUBLESHOOT</p>
+              <h1>From Linux fundamentals to <span class="gradient-text">production-ready DevOps.</span></h1>
+              <p class="hero-text">Build practical skills with structured study notes, command examples, hands-on labs and interview-focused explanations — one step at a time.</p>
+              <div class="hero-actions"><a class="btn primary" href="#roadmap">Explore study material <span>→</span></a><a class="btn ghost" href="#labs">View hands-on labs</a></div>
+              <div class="hero-proof"><div class="proof-avatars"><span>LX</span><span>K8</span><span>CI</span></div><p><strong>Practice-first learning</strong><small>Linux · Git · Docker · Kubernetes · AWS</small></p></div>
+            </article>
+            <article class="hero-slide" data-kicker="KUBERNETES ARCHITECTURE EXPLAINED">
+              <p class="eyebrow">CONTAINERS · ORCHESTRATION · SCALE</p>
+              <h1>Understand Kubernetes, <span class="gradient-text">from control plane to Pods.</span></h1>
+              <p class="hero-text">Explore cluster components, traffic flow, Deployments, Services, scheduling and troubleshooting through a clear architecture guide.</p>
+              <div class="hero-actions"><a class="btn primary" href="#kubernetes">Explore architecture <span>→</span></a><a class="btn ghost" href="#roadmap">Study the basics</a></div>
+              <div class="hero-proof"><div class="proof-avatars"><span>API</span><span>ETCD</span><span>POD</span></div><p><strong>Visual learning path</strong><small>Control plane · Worker nodes · Networking</small></p></div>
+            </article>
+            <article class="hero-slide" data-kicker="INTERVIEW PREPARATION & LAB PRACTICE">
+              <p class="eyebrow">COMMANDS · SCENARIOS · CONFIDENCE</p>
+              <h1>Turn your daily practice into <span class="gradient-text">job-ready skills.</span></h1>
+              <p class="hero-text">Revise Linux administration, Git workflows, shell scripting, containers and cloud basics with focused topics and practical scenarios.</p>
+              <div class="hero-actions"><a class="btn primary" href="#roadmap">Start learning <span>→</span></a><a class="btn ghost" href="#contact">Connect with me</a></div>
+              <div class="hero-proof"><div class="proof-avatars"><span>CLI</span><span>GIT</span><span>AWS</span></div><p><strong>Built around real practice</strong><small>Notes you can revise and apply</small></p></div>
+            </article>
+          </div>
+          <div class="carousel-controls">
+            <div class="carousel-dots" aria-label="Choose banner slide">
+              <button class="carousel-dot active" data-slide="0" aria-label="Show Linux and DevOps slide"></button>
+              <button class="carousel-dot" data-slide="1" aria-label="Show Kubernetes slide"></button>
+              <button class="carousel-dot" data-slide="2" aria-label="Show interview preparation slide"></button>
+            </div>
+            <div class="carousel-arrows"><button id="prev-slide" aria-label="Previous slide">←</button><button id="next-slide" aria-label="Next slide">→</button></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-top"><span class="live-status"><i></i> LEARNING ENVIRONMENT</span><span class="visual-dots">•••</span></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="visual-core"><span class="core-symbol">⌘</span><strong>VSC</strong><small>LINUX CODE</small></div>
+          <div class="float-card float-linux"><span class="float-icon linux-icon">$_</span><div><b>Linux Admin</b><small>System · Storage · Network</small></div><span class="mini-check">✓</span></div>
+          <div class="float-card float-k8s"><span class="float-icon k8s-icon">☸</span><div><b>Kubernetes</b><small>Cluster · Pods · Services</small></div><span class="mini-check">✓</span></div>
+          <div class="float-card float-cloud"><span class="float-icon cloud-icon">☁</span><div><b>Cloud & Automation</b><small>AWS · Git · Ansible</small></div></div>
+          <div class="visual-footer"><span><i class="status-dot green"></i> HANDS-ON LEARNING</span><span>BUILD • BREAK • FIX</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>LEARNING PATH</span><div class="path-line"><span>01 Linux</span><i></i><span>02 Git</span><i></i><span>03 Containers</span><i></i><span>04 Kubernetes</span><i></i><span>05 Cloud</span></div></div>
+    </section>
+
+    <section class="trust-strip"><div class="container trust-inner"><span>BUILT FOR PRACTICAL LEARNING</span><div>🐧 Linux Administration</div><div>⌘ Git & GitHub</div><div>🐳 Docker</div><div>☸ Kubernetes</div><div>☁ AWS & Automation</div></div></section>
+
+    <section id="roadmap" class="section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">YOUR STUDY ROADMAP</p><h2>Learn in the right <span class="gradient-text">sequence.</span></h2></div><p class="section-intro">Structured topics from core administration to cloud-native tools. Choose a track, practise the commands, then explain the concept in your own words.</p></div>
+        <div class="filter-bar" role="group" aria-label="Filter study materials">
+          <button class="filter-btn active" data-filter="all">All topics <span>8</span></button><button class="filter-btn" data-filter="foundation">Foundations</button><button class="filter-btn" data-filter="devops">DevOps tools</button><button class="filter-btn" data-filter="cloud">Cloud & orchestration</button>
+        </div>
+        <div class="study-grid">
+          <article class="study-card featured-study" data-category="foundation"><div class="card-top"><span class="study-icon icon-linux">$_</span><span class="level">CORE FOUNDATION</span></div><h3>Linux Administration</h3><p>Users, permissions, systemd, processes, storage, networking and production troubleshooting.</p><div class="topic-chips"><span>RHEL</span><span>Ubuntu</span><span>LVM</span></div><a href="#linux-notes" class="card-link">Explore key commands <span>↗</span></a></article>
+          <article class="study-card" data-category="foundation"><div class="card-top"><span class="study-icon icon-git">⑂</span><span class="level">FOUNDATION</span></div><h3>Git & GitHub</h3><p>Repository basics, branches, commits, merge workflows and collaborating safely.</p><div class="topic-chips"><span>Git</span><span>Branches</span><span>PRs</span></div><a href="#git-notes" class="card-link">Explore Git notes <span>↗</span></a></article>
+          <article class="study-card" data-category="devops"><div class="card-top"><span class="study-icon icon-docker">▣</span><span class="level">CONTAINERS</span></div><h3>Docker</h3><p>Images, containers, Dockerfiles, volumes, networks and Compose-based applications.</p><div class="topic-chips"><span>Images</span><span>Compose</span><span>Volumes</span></div><a href="#docker-notes" class="card-link">Explore Docker notes <span>↗</span></a></article>
+          <article class="study-card" data-category="cloud"><div class="card-top"><span class="study-icon icon-k8s">☸</span><span class="level">ORCHESTRATION</span></div><h3>Kubernetes</h3><p>Cluster architecture, Pods, Deployments, Services, ConfigMaps and troubleshooting.</p><div class="topic-chips"><span>Pods</span><span>Services</span><span>kubectl</span></div><a href="#kubernetes" class="card-link">View architecture <span>↗</span></a></article>
+          <article class="study-card" data-category="devops"><div class="card-top"><span class="study-icon icon-auto">⌘</span><span class="level">AUTOMATION</span></div><h3>Bash Scripting</h3><p>Variables, conditions, loops, exit codes, log rotation and backup automation.</p><div class="topic-chips"><span>Shell</span><span>Cron</span><span>Scripts</span></div><a href="#script-notes" class="card-link">Explore script ideas <span>↗</span></a></article>
+          <article class="study-card" data-category="devops"><div class="card-top"><span class="study-icon icon-ansible">✣</span><span class="level">CONFIGURATION</span></div><h3>Ansible</h3><p>Inventory, ad-hoc commands, playbooks, roles, variables and repeatable deployments.</p><div class="topic-chips"><span>YAML</span><span>Roles</span><span>Playbooks</span></div><a href="#labs" class="card-link">Explore automation labs <span>↗</span></a></article>
+          <article class="study-card" data-category="cloud"><div class="card-top"><span class="study-icon icon-cloud">☁</span><span class="level">CLOUD</span></div><h3>AWS Fundamentals</h3><p>EC2, IAM, VPC, security groups, storage and secure Linux connectivity.</p><div class="topic-chips"><span>EC2</span><span>IAM</span><span>VPC</span></div><a href="#labs" class="card-link">Explore cloud labs <span>↗</span></a></article>
+          <article class="study-card" data-category="foundation"><div class="card-top"><span class="study-icon icon-network">⌁</span><span class="level">CORE FOUNDATION</span></div><h3>Linux Networking</h3><p>IP addressing, routes, DNS, ports, sockets, packet checks and connectivity issues.</p><div class="topic-chips"><span>ip</span><span>ss</span><span>dig</span></div><a href="#linux-notes" class="card-link">Review network commands <span>↗</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kubernetes" class="section k8s-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">VISUAL LEARNING · KUBERNETES</p><h2>Kubernetes architecture, <span class="gradient-text">made clear.</span></h2></div><p class="section-intro">A simplified view of how requests travel into a cluster and how the control plane manages workloads running on worker nodes.</p></div>
+        <div class="architecture-panel">
+          <div class="architecture-toolbar"><div><span class="window-dot red"></span><span class="window-dot yellow"></span><span class="window-dot green"></span><b>kubernetes-cluster.svg</b></div><span class="arch-label"><i></i> ARCHITECTURE OVERVIEW</span></div>
+          <div class="architecture-canvas">
+            <svg class="architecture-svg" viewBox="0 0 1000 600" role="img" aria-labelledby="k8s-title k8s-desc">
+              <title id="k8s-title">Kubernetes cluster architecture</title><desc id="k8s-desc">Traffic flows from user to ingress and service to pods. The control plane contains API server, scheduler, controller manager and etcd. Worker nodes contain kubelet, kube-proxy and application pods.</desc>
+              <defs>
+                <linearGradient id="cp" x1="0" x2="1"><stop offset="0" stop-color="#102b42"/><stop offset="1" stop-color="#102239"/></linearGradient>
+                <linearGradient id="wn" x1="0" x2="1"><stop offset="0" stop-color="#102d2c"/><stop offset="1" stop-color="#102522"/></linearGradient>
+                <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#63b9ff"/></marker>
+                <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#63e6ad"/></marker>
+              </defs>
+              <rect x="22" y="22" width="956" height="554" rx="18" fill="#081521" stroke="#244056" stroke-dasharray="5 7"/>
+              <text x="48" y="53" fill="#a6bfd1" font-size="13" font-weight="700" letter-spacing="2">KUBERNETES CLUSTER</text>
+              <rect x="54" y="78" width="892" height="168" rx="14" fill="url(#cp)" stroke="#3473a0"/>
+              <text x="78" y="105" fill="#72c5ff" font-size="14" font-weight="700">CONTROL PLANE</text>
+              <g font-size="13" text-anchor="middle">
+                <rect x="80" y="128" width="190" height="82" rx="9" fill="#0b1b2a" stroke="#438cc0"/><text x="175" y="159" fill="#f0f7ff" font-weight="700">API SERVER</text><text x="175" y="181" fill="#9ab9ce" font-size="11">Cluster entry point</text>
+                <rect x="294" y="128" width="190" height="82" rx="9" fill="#0b1b2a" stroke="#438cc0"/><text x="389" y="159" fill="#f0f7ff" font-weight="700">SCHEDULER</text><text x="389" y="181" fill="#9ab9ce" font-size="11">Places Pods on nodes</text>
+                <rect x="508" y="128" width="190" height="82" rx="9" fill="#0b1b2a" stroke="#438cc0"/><text x="603" y="159" fill="#f0f7ff" font-weight="700">CONTROLLER MGR</text><text x="603" y="181" fill="#9ab9ce" font-size="11">Reconciles desired state</text>
+                <rect x="722" y="128" width="190" height="82" rx="9" fill="#0b1b2a" stroke="#438cc0"/><text x="817" y="159" fill="#f0f7ff" font-weight="700">etcd</text><text x="817" y="181" fill="#9ab9ce" font-size="11">Cluster state store</text>
+              </g>
+              <path d="M270 169 H292 M484 169 H506 M698 169 H720" stroke="#63b9ff" stroke-width="2" stroke-dasharray="4 4"/>
+              <path d="M175 211 V274 H500 V301" fill="none" stroke="#63b9ff" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrowBlue)"/>
+              <text x="510" y="270" fill="#82c8f6" font-size="11">API / control</text>
+              <rect x="54" y="306" width="892" height="238" rx="14" fill="#0a1b20" stroke="#2c7e69"/>
+              <text x="78" y="334" fill="#63e6ad" font-size="14" font-weight="700">WORKER NODES</text>
+              <g>
+                <rect x="78" y="352" width="405" height="168" rx="10" fill="url(#wn)" stroke="#318b70"/>
+                <text x="98" y="376" fill="#a7e8d0" font-size="12" font-weight="700">WORKER NODE 01</text>
+                <rect x="98" y="391" width="365" height="30" rx="6" fill="#0a171c" stroke="#347b67"/><text x="280" y="410" fill="#c7e9de" font-size="11" text-anchor="middle">kubelet · kube-proxy · container runtime</text>
+                <rect x="98" y="435" width="166" height="64" rx="7" fill="#0c2725" stroke="#4aa58b"/><text x="181" y="457" fill="#75e5bd" font-size="12" font-weight="700" text-anchor="middle">POD A</text><text x="181" y="477" fill="#b7d8ce" font-size="10" text-anchor="middle">App container</text>
+                <rect x="279" y="435" width="166" height="64" rx="7" fill="#0c2725" stroke="#4aa58b"/><text x="362" y="457" fill="#75e5bd" font-size="12" font-weight="700" text-anchor="middle">POD B</text><text x="362" y="477" fill="#b7d8ce" font-size="10" text-anchor="middle">App container</text>
+              </g>
+              <g>
+                <rect x="517" y="352" width="405" height="168" rx="10" fill="url(#wn)" stroke="#318b70"/>
+                <text x="537" y="376" fill="#a7e8d0" font-size="12" font-weight="700">WORKER NODE 02</text>
+                <rect x="537" y="391" width="365" height="30" rx="6" fill="#0a171c" stroke="#347b67"/><text x="719" y="410" fill="#c7e9de" font-size="11" text-anchor="middle">kubelet · kube-proxy · container runtime</text>
+                <rect x="537" y="435" width="166" height="64" rx="7" fill="#0c2725" stroke="#4aa58b"/><text x="620" y="457" fill="#75e5bd" font-size="12" font-weight="700" text-anchor="middle">POD C</text><text x="620" y="477" fill="#b7d8ce" font-size="10" text-anchor="middle">App container</text>
+                <rect x="718" y="435" width="166" height="64" rx="7" fill="#0c2725" stroke="#4aa58b"/><text x="801" y="457" fill="#75e5bd" font-size="12" font-weight="700" text-anchor="middle">POD D</text><text x="801" y="477" fill="#b7d8ce" font-size="10" text-anchor="middle">App container</text>
+              </g>
+              <path d="M483 463 H515" stroke="#63e6ad" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arrowGreen)"/>
+              <rect x="372" y="560" width="256" height="1" fill="#244056"/>
+            </svg>
+          </div>
+          <div class="arch-legend"><span><i class="legend-blue"></i> Control plane components</span><span><i class="legend-green"></i> Worker node workloads</span><span><i class="legend-dash"></i> Communication / control</span></div>
+        </div>
+        <div class="k8s-notes-grid">
+          <article class="k8s-note"><span class="note-number">01</span><div><h3>Control plane</h3><p>The API server exposes the Kubernetes API; etcd stores cluster state; the scheduler assigns Pods; controllers reconcile desired state.</p></div></article>
+          <article class="k8s-note"><span class="note-number">02</span><div><h3>Worker node</h3><p>Kubelet ensures Pods run, the container runtime runs containers, and kube-proxy or the cluster's networking implementation supports Service traffic.</p></div></article>
+          <article class="k8s-note"><span class="note-number">03</span><div><h3>Workload & traffic</h3><p>Deployments manage replicated Pods. Services provide stable access to matching Pods; Ingress or a Gateway can route external HTTP(S) traffic.</p></div></article>
+        </div>
+        <p class="architecture-footnote">Learning diagram: simplified architecture. Exact networking and ingress components depend on the Kubernetes distribution and installed add-ons.</p>
+      </div>
+    </section>
+
+    <section id="labs" class="section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">LEARN BY DOING</p><h2>Hands-on labs & <span class="gradient-text">projects.</span></h2></div><p class="section-intro">Use a small lab to turn each topic into repeatable practice. Start simple, inspect the result, then troubleshoot what changes.</p></div>
+        <div class="labs-grid">
+          <article class="lab-card"><div class="lab-number">LAB / 01</div><div class="lab-art terminal-art"><span>root@linux:~#</span><br><b>systemctl status sshd</b><br><i>● active (running)</i><br><span>journalctl -u sshd</span></div><h3>Linux operations lab</h3><p>Practise service checks, logs, users, disk usage and network diagnostics.</p><div class="lab-meta"><span>BEGINNER → INTERMEDIATE</span><span>01</span></div></article>
+          <article class="lab-card"><div class="lab-number">LAB / 02</div><div class="lab-art yaml-art"><span>apiVersion:</span> apps/v1<br><span>kind:</span> Deployment<br><span>replicas:</span> <b>3</b><br><span>image:</span> nginx</div><h3>Kubernetes deployment</h3><p>Create a Deployment, expose it with a Service, scale replicas and inspect events.</p><div class="lab-meta"><span>CONTAINERS</span><span>02</span></div></article>
+          <article class="lab-card"><div class="lab-number">LAB / 03</div><div class="lab-art git-art"><div class="git-node">main</div><div class="git-branch-line"></div><div class="git-node second">feature</div><div class="git-node third">merge</div><small>branch · commit · merge</small></div><h3>Git collaboration workflow</h3><p>Create a feature branch, commit changes, merge safely and review history.</p><div class="lab-meta"><span>VERSION CONTROL</span><span>03</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="quick-notes" class="section notes-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">QUICK REVISION DESK</p><h2>Useful commands, <span class="gradient-text">at a glance.</span></h2></div><p class="section-intro">A quick reference for daily revision. Try each command in a lab and read its manual page before using it on production systems.</p></div>
+        <div class="notes-tabs" role="tablist" aria-label="Command reference topics">
+          <button class="note-tab active" data-note="linux-notes" role="tab" aria-selected="true">Linux</button>
+          <button class="note-tab" data-note="git-notes" role="tab" aria-selected="false">Git</button>
+          <button class="note-tab" data-note="docker-notes" role="tab" aria-selected="false">Docker</button>
+          <button class="note-tab" data-note="script-notes" role="tab" aria-selected="false">Bash</button>
+        </div>
+        <div class="notes-panel">
+          <div class="note-content active" id="linux-notes" role="tabpanel"><div class="note-head"><div><span class="note-label">LINUX ADMINISTRATION</span><h3>Diagnose before you change.</h3></div><span class="note-symbol">$_</span></div><div class="command-list"><div><code>uptime</code><span>Load averages and system uptime</span><button class="copy-btn" data-copy="uptime" aria-label="Copy uptime">Copy</button></div><div><code>df -hT</code><span>Filesystem usage and type</span><button class="copy-btn" data-copy="df -hT" aria-label="Copy df command">Copy</button></div><div><code>lsblk -f</code><span>Block devices, filesystems and UUIDs</span><button class="copy-btn" data-copy="lsblk -f" aria-label="Copy lsblk command">Copy</button></div><div><code>systemctl --failed</code><span>List failed systemd units</span><button class="copy-btn" data-copy="systemctl --failed" aria-label="Copy systemctl command">Copy</button></div><div><code>ss -tulpn</code><span>Listening TCP/UDP sockets and processes</span><button class="copy-btn" data-copy="ss -tulpn" aria-label="Copy ss command">Copy</button></div></div></div>
+          <div class="note-content" id="git-notes" role="tabpanel"><div class="note-head"><div><span class="note-label">GIT & GITHUB</span><h3>Keep changes reviewable.</h3></div><span class="note-symbol">⑂</span></div><div class="command-list"><div><code>git status</code><span>Inspect current working tree</span><button class="copy-btn" data-copy="git status">Copy</button></div><div><code>git switch -c feature/name</code><span>Create and switch to a new branch</span><button class="copy-btn" data-copy="git switch -c feature/name">Copy</button></div><div><code>git diff</code><span>Review unstaged edits</span><button class="copy-btn" data-copy="git diff">Copy</button></div><div><code>git log --oneline --graph</code><span>View compact commit graph</span><button class="copy-btn" data-copy="git log --oneline --graph">Copy</button></div><div><code>git pull</code><span>Fetch and integrate remote changes</span><button class="copy-btn" data-copy="git pull">Copy</button></div></div></div>
+          <div class="note-content" id="docker-notes" role="tabpanel"><div class="note-head"><div><span class="note-label">DOCKER</span><h3>Inspect the container lifecycle.</h3></div><span class="note-symbol">▣</span></div><div class="command-list"><div><code>docker ps</code><span>List running containers</span><button class="copy-btn" data-copy="docker ps">Copy</button></div><div><code>docker ps -a</code><span>List all containers, including stopped</span><button class="copy-btn" data-copy="docker ps -a">Copy</button></div><div><code>docker images</code><span>List local images</span><button class="copy-btn" data-copy="docker images">Copy</button></div><div><code>docker logs CONTAINER</code><span>Read container output</span><button class="copy-btn" data-copy="docker logs CONTAINER">Copy</button></div><div><code>docker inspect CONTAINER</code><span>Inspect configuration and runtime details</span><button class="copy-btn" data-copy="docker inspect CONTAINER">Copy</button></div></div></div>
+          <div class="note-content" id="script-notes" role="tabpanel"><div class="note-head"><div><span class="note-label">BASH SCRIPTING</span><h3>Automate repetitive work safely.</h3></div><span class="note-symbol">#!/</span></div><div class="command-list"><div><code>#!/usr/bin/env bash</code><span>Portable Bash interpreter declaration</span><button class="copy-btn" data-copy="#!/usr/bin/env bash">Copy</button></div><div><code>set -euo pipefail</code><span>Fail fast on common scripting errors</span><button class="copy-btn" data-copy="set -euo pipefail">Copy</button></div><div><code>bash -n script.sh</code><span>Check script syntax</span><button class="copy-btn" data-copy="bash -n script.sh">Copy</button></div><div><code>chmod +x script.sh</code><span>Make script executable</span><button class="copy-btn" data-copy="chmod +x script.sh">Copy</button></div><div><code>echo "$?"</code><span>Print previous command's exit status</span><button class="copy-btn" data-copy='echo "$?"'>Copy</button></div></div></div>
+        </div>
+        <p class="note-disclaimer">Commands are examples for a lab. Review permissions, environment and impact before running privileged commands on production systems.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-layout">
+        <div class="about-monogram"><span>VSC</span><i>LINUX · DEVOPS · CLOUD</i><div class="monogram-lines"></div></div>
+        <div class="about-copy"><p class="eyebrow">ABOUT THE CREATOR</p><h2>Built with curiosity. <span class="gradient-text">Shared for growth.</span></h2><p>VSC Linux Code is a practical learning space created to document Linux administration, DevOps tools, cloud technologies and hands-on troubleshooting. The goal is to make complex topics easier to understand with clear diagrams, commands and repeatable labs.</p><div class="creator-line"><div class="creator-avatar">SC</div><div><strong>Sagar Chavan</strong><span>Creator · VSC Linux Code</span></div></div><a class="btn ghost" href="#contact">Connect with Sagar <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div class="contact-copy"><p class="eyebrow">LET'S CONNECT</p><h2>Learn. Share. <span class="gradient-text">Grow together.</span></h2><p>Have a Linux, DevOps or Kubernetes learning question? Reach out by email or connect through your professional profile.</p></div>
+        <div class="contact-details"><div class="contact-detail"><span class="contact-icon">✉</span><div><small>EMAIL</small><a href="mailto:sagarchavn2623@gmail.com">sagarchavn2623@gmail.com</a></div><button class="copy-btn" data-copy="sagarchavn2623@gmail.com" aria-label="Copy email address">Copy</button></div><div class="contact-detail"><span class="contact-icon">↗</span><div><small>CREATED BY</small><strong>Sagar Chavan</strong></div></div><p class="contact-note">GitHub and LinkedIn profile links can be added when the profile URLs are available.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="footer-brand" href="#home">VSC<span>LinuxCode</span></a><span>© <span id="year"></span> Sagar Chavan. Built for practical learning.</span><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

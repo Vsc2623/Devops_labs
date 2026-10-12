@@ -1,0 +1,9 @@
+cat > .gitignore <<'EOF'
+*.zip
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+certbot-env/
+EOF
