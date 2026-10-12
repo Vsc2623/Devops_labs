@@ -32,3 +32,4 @@ Upload the contents of this folder to any static hosting provider such as GitHub
 
 This is a learning website and its Kubernetes diagram is a simplified architecture overview, not a production deployment blueprint.
 Git pull practice - October 2026
+Feature branch lab completed on webserver
